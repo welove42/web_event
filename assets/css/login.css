@@ -1,0 +1,41 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(/assets/images/login_bg.jpg) no-repeat center / cover;
+}
+.loginAndreg {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+.loginAndreg .title-box {
+  height: 60px;
+  background: url('/assets/images/login_title.png') no-repeat center;
+}
+.loginAndreg .reg-box {
+  display: none;
+}
+.loginAndreg .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.loginAndreg .layui-form-item {
+  position: relative;
+}
+.loginAndreg .layui-form-item .layui-input {
+  padding-left: 30px;
+}
+.loginAndreg .layui-form-item .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
