@@ -22,6 +22,7 @@ $(function () {
                     return layui.layer.msg('修改密码失败')
                 layui.layer.msg('修改密码成功')
                 $('.layui-form')[0].reset()
+                //重新登录网页
                 reLogin(window.parent)
             },
 
