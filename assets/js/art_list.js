@@ -36,7 +36,7 @@ $(function () {
             }
         })
     }
-    function renderPage(total) {
+    function renderPage(total) {//分页渲染
         laypage.render({
             elem: 'pageBox', // 分页容器的 Id
             count: total, // 总数据条数
@@ -48,7 +48,7 @@ $(function () {
                 // 把最新的页码值，赋值到 q 这个查询参数对象中
                 q.pagenum = obj.curr
                 q.pagesize = obj.limit
-                if (first !== true) {
+                if (first !== true) {//首次不执行，避免死循环
                     initTable()
                 }
             }
