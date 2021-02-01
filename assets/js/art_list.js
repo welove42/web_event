@@ -88,6 +88,6 @@ $(function () {
     //编辑功能
     $('tbody').on('click', '.btn-edit', function () {
         let id = $(this).attr('data-id')
-        location.href = '/article/art_pub.html?id=' + id
+        location.href = '/article/art_edit.html?id=' + id
     })
 })
